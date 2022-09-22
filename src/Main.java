@@ -17,19 +17,19 @@ public class Main {
         double total = 0.0;
 
         while (num >= 0) {
-            total += num;
+            total += num; //add previous number
             System.out.print("Enter a cost in dollars and cents, e.g. 12.50 (-1 to end): ");
             num = scan.nextDouble();
 
         }
-        double totalTip =(tip/100.0)*total;
-        double ttb = (1+(tip/100.0))*total;
+        double totalTip =(tip/100.0)*total; //total tip unformated
+        double ttb = (1+(tip/100.0))*total; //total bill with tip unformated
         String totalFormat = formatter.format(total);
         String totalTipFormat = formatter.format(totalTip);
         String totalBillTip = formatter.format(ttb);
-        String ppbt = formatter.format(total/ppl);
-        String tpp = formatter.format(totalTip/ppl);
-        String tcp = formatter.format(ttb/ppl);
+        String ppbt = formatter.format(total/ppl); //per person cost before tip
+        String tpp = formatter.format(totalTip/ppl); //tip per person
+        String tcp = formatter.format(ttb/ppl); //total cost per person
 
         System.out.println("------------------------------------");
 
