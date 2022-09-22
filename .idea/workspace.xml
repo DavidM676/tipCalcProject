@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23087db4-ad39-4241-bc7f-807b79531deb" name="Changes" comment="it works">
+    <list default="true" id="23087db4-ad39-4241-bc7f-807b79531deb" name="Changes" comment="it works 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -109,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663862062845</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="it works 2">
+      <created>1663862541757</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663862541757</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +135,7 @@
     <MESSAGE value="imported scanner" />
     <MESSAGE value="get total" />
     <MESSAGE value="it works" />
-    <option name="LAST_COMMIT_MESSAGE" value="it works" />
+    <MESSAGE value="it works 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="it works 2" />
   </component>
 </project>

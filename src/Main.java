@@ -16,7 +16,7 @@ public class Main {
         double num   = 0.0;
         double total = 0.0;
 
-        while (num >= 0) {
+        while (num != -1) {
             total += num; //add previous number
             System.out.print("Enter a cost in dollars and cents, e.g. 12.50 (-1 to end): ");
             num = scan.nextDouble();
